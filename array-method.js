@@ -18,9 +18,9 @@ const productsList = [
     { name: 'Aunglass', price: 300, brand: 'Ribon', color: 'Blue' },
     { name: 'Camera', price: 9000, brand: 'Lenovo', color: 'Gray' },
 ];
-// const product = productsList.forEach(productlists => console.log(productlists.price))
-// console.log(product);
-// console.log(productName);
+const product = productsList.forEach(productlists => console.log(productlists.price))
+console.log(product);
+console.log(productName);
 
 // filter 
 const chips = productsList.filter(product => product.color == "Gray")
