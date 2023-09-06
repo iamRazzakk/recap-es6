@@ -11,9 +11,9 @@ const studentPARSE = JSON.parse(studentJSON)
 
 
 // // fetch
-// fetch("url")
-//     .then(res => res.json())
-//     .then(data => console.log(data))
+fetch("url")
+    .then(res => res.json())
+    .then(data => console.log(data))
 // This is fetch method..
 
 
